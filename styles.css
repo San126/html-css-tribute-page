@@ -1,0 +1,57 @@
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#title {
+ margin: 20px auto 30px;
+ text-align: center;
+ font-family: Verdana, sans-serif;
+}
+
+#img-caption{
+    /* display: block; */
+    font-family: Verdana, sans-serif;
+    margin: 5px;
+}
+
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  margin: auto;
+  font-size: 14px;
+  font-family: Cambria ,san-serif;
+}
+
+li{
+  margin-bottom: 15px;
+}
+
+#link {
+  text-align: center;
+}
+
+#quote {
+  font-family:Courier, Serif;
+  width: 90%;
+  text-align: center;
+}
+
+#name {
+font-family:Cambria, Serif;
+  text-align: right;
+  width:0px auto;
+  padding: 0px;
+}
